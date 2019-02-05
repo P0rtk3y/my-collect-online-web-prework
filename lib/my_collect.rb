@@ -5,11 +5,3 @@ def my_collect(array)
     i+=1
   end 
 end
-
-my_collect(array) do |student|
-  puts student.split(" ").first 
-end
-
-my_collect(array) do |language|
-  puts language.upcase
-end
