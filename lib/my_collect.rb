@@ -10,6 +10,4 @@ end
 
 my_collect(array) {|student| student.split(" ").first} 
 
-my_collect(array) do |language|
-  puts language.upcase
-end
+my_collect(array) {|language| language.upcase}
