@@ -9,5 +9,4 @@ def my_collect(array)
 end
 
 my_collect(array) {|student| student.split(" ").first} 
-
 my_collect(array) {|language| language.upcase}
